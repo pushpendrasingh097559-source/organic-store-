@@ -1,0 +1,238 @@
+
+*{
+    margin:0;
+    padding:0;
+
+}
+
+html, body{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+
+body{
+    background-image: url("./images/body.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+height:100vh;
+}
+
+ .outer{
+padding-left: 150px;
+margin-top: 190px;}
+
+
+.inner{
+width: 40%;
+margin-left: 280px;
+padding: 25px;}
+
+.inner .top{
+padding: 8px;
+font-family: sans-serif}
+
+.inner .top h2{font-size: 30px;
+font-weight: 550;
+
+margin-bottom: 5px;
+
+color: rgb(56, 56, 56);}
+
+
+.top p{font-size: 13px;
+    width: 53%;
+    text-align: center;
+color: rgb(87, 87, 87);
+font-weight: 600;
+font-family: sans-serif;
+}
+
+.top a {font-size: 17px;
+font-weight: 700;
+    color:#fc7752;
+font-family: sans-serif;
+text-decoration: none;
+}
+
+
+    .inner .username {background-color: white;
+    width: 50%;
+padding:  10px;
+border-radius: 12px;
+border : 1px solid rgb(151, 150, 150);
+font-family: sans-serif;
+align-items: center;
+display: flex;
+
+}
+
+
+.username .user2 i{margin-left: 55px;
+color: rgb(133, 132, 132);
+font-size: 15px;}
+
+.username .user2 input{
+    padding-right: 25px;
+border:none;
+outline: none;
+font-size: 14px;
+}
+
+
+.username .user1 i{background-color: white;
+color: green;
+font-size: 16px;
+margin-left: -2px;}
+
+
+
+
+    .inner .password {background-color: white;
+    width: 50%;
+padding: 10px;
+border-radius: 12px;
+border : 1px solid rgb(151, 150, 150);
+margin-top: 4px;
+font-family: sans-serif;
+align-items: center;
+display: flex;
+}
+
+
+
+.password .pass2 i{margin-left: 55px;
+color: rgb(133, 132, 132);
+font-size: 15px;}
+
+.password .pass2 input{
+    padding-right: 25px;
+border:none;
+outline: none;
+font-size: 14px;
+}
+
+
+.password .pass1 i{
+color:rgb(133, 132, 132);
+font-size: 16px;
+margin-left: -2px;}
+
+
+
+
+.inner .forget{
+width: 51%;
+padding: 10px;
+text-align: end;}
+
+
+
+.forget .forget1{margin-top: -6px;
+   font-family:  sans-serif; 
+     
+  }
+
+
+ .forget .forget1 a{color: rgb(250, 36, 36);
+    font-size: 13px;
+    font-weight: 600;
+    
+    text-decoration: none;
+    
+  
+}
+.forget .forget2{margin-top: 2px;
+   font-family:  sans-serif; 
+ }
+
+
+ .forget .forget2 a{color: rgb(250, 36, 36);
+font-size: 13px;
+font-weight: 600;
+
+text-decoration: none;
+ 
+}
+
+
+.inner .login button {padding: 12px 140px;
+border: none;
+border-radius: 12px;
+margin-top: 8px;
+background-color: blue;
+color: white;
+align-items: center;
+font-size: 14px;
+font-weight: lighter;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+transition: .8s all;}
+
+
+.login button:hover{background-color: #fc7752;
+    transition: .8s all;}
+
+
+.inner .or{
+width: 52%;
+margin-top: 3px;
+text-align: center;
+padding: 10px;
+}
+
+.inner .or h3{color: rgb(253, 11, 11);
+font-family: sans-serif ;
+font-weight: 600;
+font-size: 14px;}
+
+
+
+.inner .or-in{display: flex;
+justify-content: space-around;
+width: 33%;
+
+padding: 3px;
+align-items: center;
+margin: 5px 0px 5px 65px;}
+
+.or-in .facebook{background-color: rgb(8, 8, 244);
+padding:8px 21px;
+border-radius: 9px;}
+
+
+.or-in .google{background-color: rgba(249, 44, 44, 0.966);
+padding:8px 22px;
+border-radius: 9px;}
+
+
+.or-in .twitter{background-color: rgb(170, 210, 243);
+padding:8px 22px;
+border-radius: 9px;}
+
+
+.or-in .facebook a{background-color:rgb(8, 8, 244);
+color: whitesmoke;
+border-radius: 50%;
+font-size: 13px;}
+
+
+.or-in .google a{background-color:rgba(249, 44, 44, 0.966);
+color: whitesmoke;
+border-radius: 50%;
+font-size: 13px;}
+
+
+.or-in .twitter a{background-color:rgb(170, 210, 243);
+color: whitesmoke;
+border-radius: 50%;
+font-size: 13px;}
+
+
+
+
+
+
+
+
+
