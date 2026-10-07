@@ -1353,3 +1353,791 @@ align-items: center;}
     border-radius: 8px;
 }
  
+
+
+
+@media (max-width: 1200px) {
+
+    .header .header-in {
+        width: 92%;
+    }
+
+    .header-button a {
+        padding: 20px 12px;
+        font-size: 16px;
+    }
+
+    .header-in .header-helpline {
+        margin-left: 5px;
+    }
+
+    .helpline-number h1 {
+        font-size: 24px;
+    }
+
+    .helpline-number h4 {
+        font-size: 12px !important;
+    }
+
+    .category,
+    .category-items,
+    .product-types,
+    .products,
+    .deal-heading,
+    .deal-section {
+        width: 92%;
+    }
+
+    .category-items {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .category-items > div {
+        width: 18%;
+    }
+
+    .banners {
+        width: 92%;
+        gap: 15px;
+    }
+
+    .banner1,
+    .banner2,
+    .banner3 {
+        width: 32%;
+        overflow: hidden;
+    }
+
+    .banner1-img img,
+    .banner2-img img,
+    .banner3-img img {
+        margin-left: 45%;
+        max-width: 70%;
+        object-fit: contain;
+    }
+
+    .banner1-text,
+    .banner2-text,
+    .banner3-text {
+        margin-left: 25px;
+    }
+
+    .banner1-text h3,
+    .banner2-text h3,
+    .banner3-text h3 {
+        font-size: 20px;
+    }
+
+    .product-in {
+        width: 30%;
+    }
+
+    .deal-section {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .deal-section .deal-items {
+        width: 30%;
+    }
+
+    .footer {
+        width: 92%;
+    }
+}
+
+
+@media (max-width: 992px) {
+
+    .header .header-in {
+        width: 95%;
+        height: auto;
+        min-height: 80px;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px 0;
+    }
+
+    .header-img {
+        margin-left: 0;
+    }
+
+    .header-img img {
+        width: 110px;
+        height: 90px;
+    }
+
+    .header-in .header-button {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .header-button a {
+        font-size: 14px;
+        padding: 12px 9px;
+    }
+
+    .header-in .header-helpline {
+        display: none;
+    }
+
+    .slidebar .slidebar-img {
+        height: 350px;
+    }
+
+    .slidebar-text {
+        width: 60%;
+        margin-top: -310px;
+    }
+
+    .slidebar-text h1 {
+        width: 85%;
+        font-size: 30px;
+    }
+
+    .slidebar-text h4 {
+        font-size: 18px;
+    }
+
+    .slidebar-email {
+        width: 45%;
+        margin-top: -150px;
+    }
+
+    .category {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .category h1 {
+        margin-left: 0;
+    }
+
+    .category ul {
+        margin-left: 0;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .category li {
+        margin-right: 15px;
+    }
+
+    .category-items {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 15px;
+    }
+
+    .category-items > div {
+        width: 100%;
+    }
+
+    .banners {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .banner1,
+    .banner2,
+    .banner3 {
+        width: 100%;
+        min-height: 260px;
+        position: relative;
+    }
+
+    .banner3 {
+        grid-column: 1 / -1;
+    }
+
+    .banner1-img img,
+    .banner2-img img,
+    .banner3-img img {
+        margin-left: auto;
+        margin-right: 10px;
+        display: block;
+    }
+
+    .banner1-text,
+    .banner2-text,
+    .banner3-text {
+        margin-left: 25px;
+    }
+
+    .product-types {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .product-type1 h3 {
+        margin-left: 0;
+    }
+
+    .product-type2 {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .product-type2 li {
+        margin-right: 10px;
+    }
+
+    .products {
+        width: 92%;
+    }
+
+    .product-in {
+        width: 30%;
+    }
+
+    .deal-section .deal-items {
+        width: 45%;
+    }
+
+    .footer-banner {
+        width: 92%;
+        height: auto;
+        min-height: 350px;
+    }
+
+    .banner-text {
+        width: 80%;
+        margin-left: 50px;
+    }
+
+    .banner-text h1 {
+        font-size: 42px;
+        line-height: 55px;
+    }
+
+    .banner-email {
+        width: 45%;
+        margin-left: 100px;
+    }
+
+    .footer {
+        width: 92%;
+        height: auto;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .footer .box1 {
+        width: 45%;
+        margin-left: 0;
+    }
+
+    .footer .mid-footer {
+        width: 25%;
+    }
+
+    .footer .app-install {
+        width: 25%;
+    }
+
+    .copyright {
+        width: 92%;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .header .header-in {
+        flex-direction: column;
+        padding: 5px 0 12px;
+    }
+
+    .header-button {
+        width: 100%;
+        overflow-x: auto;
+        justify-content: flex-start !important;
+        flex-wrap: nowrap !important;
+        scrollbar-width: none;
+    }
+
+    .header-button::-webkit-scrollbar {
+        display: none;
+    }
+
+    .header-button a {
+        white-space: nowrap;
+        padding: 10px 13px;
+        font-size: 14px;
+    }
+
+    .slidebar .slidebar-img {
+        height: 300px;
+    }
+
+    .slidebar-text {
+        width: 70%;
+        margin-top: -270px;
+    }
+
+    .slidebar-text h1 {
+        font-size: 25px;
+        width: 90%;
+        margin-left: 10px;
+    }
+
+    .slidebar-text h4 {
+        font-size: 16px;
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+
+    .slidebar-email {
+        width: 55%;
+        margin-left: 20px;
+        margin-top: -120px;
+    }
+
+    .slidebar-email input {
+        font-size: 14px;
+    }
+
+    .slidebar-email button {
+        padding: 15px 18px;
+    }
+
+    .category {
+        width: 92%;
+        margin: 35px auto;
+    }
+
+    .category h1 {
+        font-size: 28px;
+    }
+
+    .category-items {
+        width: 92%;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 40px auto;
+    }
+
+    .category-items > div {
+        height: 180px !important;
+    }
+
+    .category-items img {
+        max-width: 90%;
+        object-fit: contain;
+    }
+
+    .banners {
+        width: 92%;
+        grid-template-columns: 1fr;
+    }
+
+    .banner1,
+    .banner2,
+    .banner3 {
+        grid-column: auto;
+        min-height: 250px;
+    }
+
+    .banner1-img img,
+    .banner2-img img,
+    .banner3-img img {
+        max-width: 45%;
+    }
+
+    .banner1-text h3,
+    .banner2-text h3,
+    .banner3-text h3 {
+        font-size: 21px;
+        width: 55%;
+        line-height: 30px;
+    }
+
+    .products {
+        width: 92%;
+    }
+
+    .product-in {
+        width: 45%;
+    }
+
+    .product-in img {
+        max-width: 130px;
+        height: 160px;
+        object-fit: contain;
+    }
+
+    .product-text h3 {
+        font-size: 18px;
+    }
+
+    .deal-section {
+        width: 92%;
+    }
+
+    .deal-section .deal-items {
+        width: 48%;
+    }
+
+    .deal-heading {
+        width: 92%;
+    }
+
+    .footer-banner {
+        width: 92%;
+        min-height: 300px;
+    }
+
+    .banner-text {
+        width: 90%;
+        margin-left: 10px;
+    }
+
+    .banner-text h1 {
+        font-size: 34px;
+        line-height: 45px;
+        width: 80%;
+        margin-left: 0;
+    }
+
+    .banner-text h4 {
+        font-size: 18px;
+        margin-left: 10px;
+    }
+
+    .banner-email {
+        width: 60%;
+        margin-left: 20px;
+    }
+
+    .footer {
+        flex-direction: column;
+        height: auto;
+        padding: 30px 20px;
+    }
+
+    .footer .box1,
+    .footer .mid-footer,
+    .footer .app-install {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .box1 h2,
+    .address h3,
+    .callus h3,
+    .emailus h3,
+    .hours h3 {
+        width: 100%;
+    }
+
+    .copyright {
+        width: 92%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .copyright .contacttome {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .fixedpart {
+        right: 15px;
+        bottom: 20px;
+    }
+
+    .wpkaro i {
+        font-size: 38px;
+    }
+
+    .wpkaro-text button {
+        font-size: 15px;
+        padding: 8px 15px;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .slidebar .slidebar-img {
+        height: 260px;
+    }
+
+    .slidebar-text {
+        width: 100%;
+        margin-top: -235px;
+    }
+
+    .slidebar-text h1 {
+        font-size: 21px;
+        width: 70%;
+        padding: 5px;
+        margin-left: 5px;
+    }
+
+    .slidebar-text h4 {
+        font-size: 13px;
+        margin-left: 15px;
+    }
+
+    .slidebar-email {
+        width: 85%;
+        margin-left: 7.5%;
+        margin-top: -80px;
+    }
+
+    .slidebar-email i {
+        font-size: 15px;
+    }
+
+    .slidebar-email input {
+        font-size: 12px;
+        min-width: 0;
+    }
+
+    .slidebar-email button {
+        padding: 13px 12px;
+        font-size: 12px;
+    }
+
+    .category-items {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .category-items > div {
+        height: 175px !important;
+    }
+
+    .category-items img {
+        height: 85px !important;
+        width: 110px !important;
+        margin-top: 15px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .category-items h4 {
+        font-size: 13px;
+    }
+
+    .category-items p {
+        font-size: 11px;
+    }
+
+    .banner1-text,
+    .banner2-text,
+    .banner3-text {
+        margin-left: 18px;
+    }
+
+    .banner1-text h3,
+    .banner2-text h3,
+    .banner3-text h3 {
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 20px;
+        width: 55%;
+    }
+
+    .banner1-img img,
+    .banner2-img img,
+    .banner3-img img {
+        max-width: 45%;
+    }
+
+    .product-type2 {
+        width: 100%;
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        scrollbar-width: none;
+    }
+
+    .product-type2::-webkit-scrollbar {
+        display: none;
+    }
+
+    .product-type2 li {
+        white-space: nowrap;
+        font-size: 14px;
+    }
+
+    .products {
+        width: 94%;
+    }
+
+    .product-in {
+        width: 100%;
+        height: auto;
+        min-height: 450px;
+        margin: 12px auto;
+    }
+
+    .product-in img {
+        width: 140px;
+        height: 160px;
+    }
+
+    .text-area {
+        margin-top: 25px;
+    }
+
+    .product-text h3 {
+        font-size: 19px;
+    }
+
+    .price {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .deal-section .deal-items {
+        width: 100%;
+    }
+
+    .dealitem-text {
+        margin-top: -100px;
+    }
+
+    .item-details {
+        height: auto;
+        min-height: 160px;
+        padding-bottom: 15px;
+    }
+
+    .item-name h3 {
+        font-size: 14px;
+    }
+
+    .footer-banner {
+        min-height: 280px;
+        border-radius: 25px;
+    }
+
+    .banner-text {
+        margin-top: 20px;
+    }
+
+    .banner-text h1 {
+        font-size: 27px;
+        line-height: 35px;
+        width: 85%;
+    }
+
+    .banner-text h4 {
+        font-size: 15px;
+    }
+
+    .banner-email {
+        width: 85%;
+        margin-left: 7.5%;
+    }
+
+    .banner-email input {
+        font-size: 13px;
+        min-width: 0;
+    }
+
+    .banner-email button {
+        padding: 14px 12px;
+        font-size: 12px;
+    }
+
+    .footer .box1 img {
+        width: 125px;
+        height: auto;
+    }
+
+    .mid-footer h3 {
+        font-size: 22px;
+    }
+
+    .app-install h3 {
+        font-size: 17px;
+    }
+
+    .socialinteraction {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .contactnumber .contactnumbertext h4 {
+        font-size: 23px;
+    }
+}
+
+
+@media (max-width: 380px) {
+
+    .header-button a {
+        padding: 9px 10px;
+        font-size: 13px;
+    }
+
+    .slidebar .slidebar-img {
+        height: 230px;
+    }
+
+    .slidebar-text {
+        margin-top: -210px;
+    }
+
+    .slidebar-text h1 {
+        font-size: 18px;
+    }
+
+    .slidebar-text h4 {
+        font-size: 11px;
+    }
+
+    .slidebar-email {
+        margin-top: -65px;
+    }
+
+    .slidebar-email button {
+        padding: 11px 8px;
+    }
+
+    .category h1 {
+        font-size: 24px;
+    }
+
+    .category-items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .banner1-text h3,
+    .banner2-text h3,
+    .banner3-text h3 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .product-in {
+        min-height: 430px;
+    }
+
+    .deal-heading h1 {
+        font-size: 27px;
+    }
+
+    .banner-text h1 {
+        font-size: 23px;
+        line-height: 30px;
+    }
+
+    .banner-text h4 {
+        font-size: 13px;
+    }
+
+    .banner-email {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
